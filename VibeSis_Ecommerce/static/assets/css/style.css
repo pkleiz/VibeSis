@@ -114,7 +114,8 @@ header .search {
   width: 85%;
   background: transparent;
   text-transform: capitalize;
-  border: none;
+  border: 0.2px solid #909b97;
+  border-radius: 3px;
   letter-spacing: 2px;
   float: left;
 }
@@ -225,7 +226,7 @@ nav ul li ul li:hover {
 
 /* Background color change on Hover */
 nav a:hover {
-  color: #ec1c24;
+  color: #00ba7a;
 }
 
 .menu li.active a {
@@ -468,7 +469,7 @@ li > a:only-child:after {
 
 /*--banner--*/
 .main-sec {
-  background: #74d2e7;
+  background: #ffffff;
   min-height: 43em;
   position: relative;
 }
@@ -491,7 +492,7 @@ li > a:only-child:after {
 }
 
 .banner-wthree-info h3 span {
-  color: #fff;
+  color: #909b97;
 }
 
 .btn.shop {
@@ -1579,6 +1580,7 @@ h3.sub-w3ls-headf {
 @media (max-width: 568px) {
   .main-sec.inner-page {
     min-height: 13em;
+    padding-top: 0;
   }
 
   #logo a {
