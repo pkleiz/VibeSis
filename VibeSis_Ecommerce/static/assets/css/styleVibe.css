@@ -1,0 +1,22 @@
+.color-green-background {
+  background-color: #00ba7a !important;
+}
+.color-green-vibe {
+  color: #00ba7a !important;
+}
+.black-color {
+  color: black;
+}
+.white-color {
+  color: white !important;
+}
+.logo-style {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 20vh;
+}
+
+.border-radius-5px {
+  border-radius: 5px;
+}

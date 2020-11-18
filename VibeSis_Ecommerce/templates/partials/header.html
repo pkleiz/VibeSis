@@ -20,6 +20,7 @@
         }
     </script>
     <!-- //Meta tag Keywords -->
+    <link rel="stylesheet"  type="text/css" href="../../static/assets/css/styleVibe.css" >
     <!-- Custom-Files -->
     <link rel="stylesheet" href="../static/assets/css/bootstrap.css">
     <!-- Bootstrap-Core-CSS -->
@@ -42,12 +43,12 @@
                 <!-- nav -->
                 <div class="top-w3pvt d-flex">
                     <div id="logo">
-                        <h1> <img src="{% static 'images/logo.png'  %}" style="height: 20vh;"></h1>
+                        <h1> <img class="logo-style" src="{% static 'images/logo.png'  %}""></h1>
                     </div>
 
                     <div class="forms ml-auto" style="padding-top: 10vh;">
-                        <a href="login.html" class="btn"><span style="color:black" class="fa fa-user-circle-o"></span> Sign In</a>
-                        <a href="register.html" class="btn"><span style="color:black" class="fa fa-pencil-square-o"></span> Sign Up</a>
+                        <a href="login.html" class="btn"><span  class="fa fa-user-circle-o black-color"></span> Sign In</a>
+                        <a href="register.html" class="btn"><span  class="fa fa-pencil-square-o black-color"></span> Sign Up</a>
                     </div>
                 </div>
                 <div class="nav-top-wthree">
@@ -55,33 +56,31 @@
                         <label for="drop" class="toggle"><span class="fa fa-bars"></span></label>
                         <input type="checkbox" id="drop" />
                         <ul class="menu">
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="{url 'index'}">Home</a></li>
                             <li><a href="about.html">About Us</a></li>
                             <li>
                                 <!-- First Tier Drop Down -->
                                 <label for="drop-2" class="toggle">Dropdown <span class="fa fa-angle-down"
                                         aria-hidden="true"></span>
                                 </label>
-                                <a href="#">Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                                <a href="#">Dropdown <span class="fa fa-angle-down black-color" aria-hidden="true"></span></a>
                                 <input type="checkbox" id="drop-2" />
-                                <ul>
+                                <ul class="fix-dropdown">
                                     <li><a href="coming.html" class="drop-text">Services</a></li>
                                     <li><a href="about.html" class="drop-text">Features</a></li>
                                     <li><a href="single.html" class="drop-text">Single Page</a></li>
-
                                 </ul>
                             </li>
-
                             <li><a href="shop.html">Collections</a></li>
                             <li><a href="contact.html">Contact</a></li>
                         </ul>
                     </nav>
                     <!-- //nav -->
                     <div class="search-form ml-auto">
-                        <div class="form-w3layouts-grid">
-                            <form action="#" method="post" class="newsletter">
-                                <input class="search" type="search" placeholder="O que você procura?" required="">
-                                <button class="form-control btn" value=""><span class="fa fa-search"></span></button>
+                        <div class="">
+                            <form action="#" method="post" class="newsletter ">
+                                <input class="search" type="search" placeholder="Pesquisar" required="">
+                                <button class="form-control btn color-green-background" value=""><span class="fa fa-search "></span></button>
                             </form>
                         </div>
                     </div>

@@ -76,8 +76,16 @@ ol {
 }
 
 .top-w3pvt {
-  border-bottom: 1px solid #8bb4df;
+  border-bottom: 1px solid #00ba7a;
   padding-bottom: 0.5em;
+}
+
+.fix-dropdown {
+  margin-left: -8em;
+}
+
+.background-black {
+  background-color: black;
 }
 
 .nav-top-wthree {
@@ -319,7 +327,7 @@ li > a:only-child:after {
   /* Stylinf the toggle lable */
   .toggle {
     display: inline-block;
-    padding: 9px 15px;
+    padding: 9px;
     font-size: 20px;
     text-decoration: none;
     border: none;
@@ -475,7 +483,7 @@ li > a:only-child:after {
 }
 
 .main-sec.inner-page {
-  background: #74d2e7;
+  background: #00ba7a;
   min-height: 20em;
   position: relative;
 }
@@ -660,11 +668,12 @@ h4.text-w3pvt {
 }
 
 .shiopping-w3pvt-gd:hover {
-  background: #74d2e7;
+  background: #00ba7a;
   -moz-transition: all 0.25s ease;
   -o-transition: all 0.25s ease;
   -webkit-transition: all 0.25s ease;
   transition: all 0.25s ease;
+  opacity: 0.9;
 }
 
 .shiopping-w3pvt-gd h3 {
@@ -718,7 +727,7 @@ h4.text-w3pvt {
 }
 
 .btn.submit {
-  background: #74d2e7;
+  background: #00ba7a;
   -moz-transition: all 0.25s ease;
   -o-transition: all 0.25s ease;
   -webkit-transition: all 0.25s ease;
@@ -736,7 +745,7 @@ h4.text-w3pvt {
 
 .btn.submit:hover,
 .btn.shop:hover {
-  opacity: 0.9;
+  opacity: 0.5;
 }
 
 /*--//newsletter--*/
@@ -1225,7 +1234,7 @@ p.cont-wthree-para a {
 
 .footer_wthree_gridf h2 a span {
   font-weight: 700;
-  color: #74d2e7;
+  color: #00ba7a;
   font-size: 1.4em;
 }
 
@@ -1267,7 +1276,7 @@ p.cont-wthree-para a {
 }
 
 .footer_wthree_gridf_list li a:hover {
-  color: #ea4335;
+  color: #00ba7a;
 }
 
 .footer_wthree_gridf_list li:last-child {
